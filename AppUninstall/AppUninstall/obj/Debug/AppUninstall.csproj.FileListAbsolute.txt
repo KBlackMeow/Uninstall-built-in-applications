@@ -1,0 +1,15 @@
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\bin\Debug\AppUninstall.exe.config
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\bin\Debug\AppUninstall.exe
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\bin\Debug\AppUninstall.pdb
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.csprojAssemblyReference.cache
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\MainWindow.g.cs
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\App.g.cs
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall_MarkupCompile.cache
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall_MarkupCompile.lref
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\MainWindow.baml
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.g.resources
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.Properties.Resources.resources
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.csproj.GenerateResource.cache
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.exe
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall.pdb
+C:\Users\illya\source\repos\AppUninstall\AppUninstall\obj\Debug\AppUninstall_Content.g.cs
