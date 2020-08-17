@@ -1,0 +1,33 @@
+﻿<Window x:Class="AppUninstall.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppUninstall"
+        mc:Ignorable="d"
+        Title="Android App Uninstall Tool" Height="600" Width="1000" Foreground="Black" ResizeMode="NoResize">
+	<Grid >
+		<Grid.ColumnDefinitions >
+			<ColumnDefinition Width="2*"/>
+			<ColumnDefinition Width="384*"/>
+			<ColumnDefinition Width="99*"/>
+			<ColumnDefinition Width="309*"/>
+		</Grid.ColumnDefinitions>
+		<DataGrid x:Name="AppList" HorizontalAlignment="Left" Height="497" Margin="8,0,0,10" VerticalAlignment="Bottom" Width="587" FrozenColumnCount="2" Background="#FF9A9898" Grid.ColumnSpan="2" SelectionChanged="AppList_SelectionChanged" Foreground="Black" Grid.Column="1"/>
+		<Button x:Name="CheckButton" Content="选中" HorizontalAlignment="Left" Margin="165.377,10,0,0" VerticalAlignment="Top" Width="75" Click="CheckButton_Click" Grid.Column="1"/>
+		<Button x:Name="UncheckButton" Content="取消选中" HorizontalAlignment="Left" Margin="256.377,10,0,0" VerticalAlignment="Top" Width="75" Click="UncheckButton_Click" Grid.Column="1"/>
+		<Button x:Name="UninstallButton" Content="确认卸载" HorizontalAlignment="Left" Margin="347.377,10,0,0" VerticalAlignment="Top" Width="75" IsCancel="True" Click="UninstallButton_Click" Grid.ColumnSpan="2" Grid.Column="1"/>
+		<Border x:Name="InstallBox" BorderBrush="Black" BorderThickness="1" Grid.Column="3" HorizontalAlignment="Left" Height="101" Margin="161,36,0,0" VerticalAlignment="Top" Width="216" Background="#FF5EB1EB" AllowDrop="True"  Drop="InstallBox_Drop"/>
+		<Label Content="手机已安装程序列表" HorizontalAlignment="Left" Margin="13.377,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.59,-0.504" Width="152" Height="26" Grid.Column="1"/>
+		<Label Content="拖动安装包到下面安装" Grid.Column="3" HorizontalAlignment="Left" Margin="161,10,0,0" VerticalAlignment="Top" Width="138"/>
+		<Label Content="日志输出" Grid.Column="3" HorizontalAlignment="Left" Margin="0,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.383,-0.223" Width="56"/>
+		<TextBox x:Name="LogOutput" Grid.Column="3" HorizontalAlignment="Left" Height="411" Margin="0,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="377" TextChanged="LogOutput_TextChanged" IsEnabled="False" Foreground="#FF82DDFF">
+			<TextBox.Background>
+				<SolidColorBrush Color="#FF000F57"/>
+			</TextBox.Background>
+		</TextBox>
+		<Button x:Name="Help" Content="帮助" Grid.Column="3" HorizontalAlignment="Left" Margin="25,64,0,0" VerticalAlignment="Top" Width="104" Click="Help_Click" Height="50" Background="#FFF91F1F" Foreground="#FF4DE7FD" FontSize="36"/>
+		<Button x:Name="Fresh" Content="刷新" Grid.Column="3" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="104" Height="49" FontSize="36" Background="#FF3CF1EE" Click="Fresh_Click"/>
+
+	</Grid>
+</Window>

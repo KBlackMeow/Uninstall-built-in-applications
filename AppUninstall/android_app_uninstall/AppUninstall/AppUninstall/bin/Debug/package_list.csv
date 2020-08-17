@@ -1,0 +1,197 @@
+﻿Package Names,Known Description,Safe to Remove?
+com.huawei.hifolder,Huawei Cloud Folder,Yes
+com.android.cts.priv.ctsshim,Compatibility Testing,No
+com.google.android.youtube,Youtube,Yes
+com.huawei.camera,Camera,No
+com.google.android.ext.services,Extensions Service,No
+com.huawei.synergy,Huawei Cloud & Network Synergy,No
+com.huawei.android.launcher,Huawei Launcher,Yes
+com.android.gallery3d.overlay,Gallery Viewing,No
+com.android.mediacenter,Huawei Music,Yes
+com.android.providers.telephony,Phone Call Provider,No
+com.google.android.googlequicksearchbox,Google App,Yes
+com.android.providers.calendar,Calendar Syncing,No
+com.huawei.featurelayer.featureframework,,No
+com.huawei.hicard,Huawei Cards,Yes
+com.huawei.hidisk,Huawei File Manager,Yes
+com.huawei.hiview,Displays the details of a photo after taking it with the camera,Yes
+com.huawei.iaware,App Prioritizer,Yes
+com.huawei.bluetooth,Bluetooth,No
+com.android.providers.media,Allows you to set and play audio & ringtones,No
+com.touchtype.swiftkey,Keyboard,Yes
+com.huawei.android.thememanager,Themes,Yes
+com.huawei.android.chr,Collects call; cell information; messages and radio measurement from the network,Yes
+com.huawei.android.hsf,Huawei Services Framework,No
+com.google.android.onetimeinitializer,Runs once at first phone startup,Yes
+com.google.android.ext.shared,,No
+com.huawei.autoinstallapkfrommcc,Information.  Do not remove or your uninstall apps button won't work,No
+com.android.wallpapercropper,Wallpaper Cropping,No
+com.huawei.imedia.dolby,Dolby Sound Enhancements,No
+com.huawei.nearby,Huawei Nearby Places,Yes
+com.huawei.android.FloatTasks,Floating Tasks,Yes
+com.huawei.desktop.systemui,SystemUI for using phone as desktop OS on PC,Yes
+com.huawei.intelligent,Huawei Shopping Recommendations,Yes
+com.huawei.motionservice,Huawei Motion Sensing Service,No
+com.huawei.appmarket,Huawei App Store,Yes
+com.huawei.recsys,Huawei AI DS Engine,No
+com.huawei.parentcontrol,Digital Balance (Wellbeing),Yes
+com.huawei.search,Huawei Search,Yes
+com.android.documentsui,Phone Browser,No
+com.huawei.numberidentity,Huawei Number Identity,No
+com.android.externalstorage,External Storage Service,No
+com.android.htmlviewer,Accessibility Service For The Visually Impaired,Yes
+com.android.companiondevicemanager,,No
+com.android.mms.service,MMS Service,No
+com.android.providers.downloads,Android Downloads,No
+com.google.android.apps.messaging,Stock Huawei MMS App (Google Messages),Yes
+com.huawei.phoneservice,HiCare,Yes
+com.huawei.desktop.explorer,For using phone as desktop OS on PC,Yes
+com.huawei.screenrecorder,Screen Recorder,Yes
+com.huawei.arengine.service,Augmented Reality Service,No
+com.huawei.himovie.overseas,Huawei Videos,Yes
+com.android.partnerbrowsercustomizations.tmobile,Dependant On Carrier.  Safe To Remove,Yes
+com.huawei.videoeditor,Video Editor,Yes
+com.huawei.securitymgr,Huawei Private Space,No
+com.google.android.configupdater,,No
+com.android.soundrecorder,Sound Recorder,Yes
+com.huawei.iconnect,Device Connection Service.  If you disable your uninstall apps button won't work,No
+com.android.defcontainer,,No
+com.huawei.hiviewtunnel,,Yes
+com.android.providers.downloads.ui,User interface For Downloads,No
+com.android.vending,Google Play,No
+com.android.pacprocessor,,No
+com.android.simappdialog,,No
+com.android.systemui.overlay,,No
+com.hisi.mapcon,Huawei Maps Related,Yes
+androidhwext,,No
+com.android.frameworkhwext.honor,Huawei Framework,No
+com.android.certinstaller,Trusted Certificate Installer,No
+com.android.carrierconfig,,No
+com.google.android.marvin.talkback,Google Talkback,Yes
+com.google.android.apps.work.oobconfig,Initial Google Configurator,Yes
+android,The Best Mobile OS,No
+com.android.hotwordenrollment.xgoogle,OK Google Hotword Enrollment,No
+com.huawei.hiai,Huawei Artificial Intelligence,No
+com.huawei.hwid,Huawei ID,Yes
+ com.android.contacts,Stock Contacts,Yes
+com.huawei.systemserver,Huawei Dark Framework,No
+com.android.frameworkhwext.dark,Huawei's Dark Framework,No
+com.android.mtp,Media Transfer Protocol,No
+com.android.nfc,Near Field Communication,No
+com.android.stk,SIM Toolkit (Doesn't support U.S.),Yes
+com.android.backupconfirm,First run Google Backup Confirmation,Yes
+com.huawei.android.instantshare,Huawei Instant Sharing App,Yes
+com.huawei.trustagent,,No
+com.android.statementservice,Intent Filter Verification Service,Yes
+com.google.android.gm,Gmail,Yes
+com.google.android.apps.tachyon,Google Duo,Yes
+com.huawei.android.internal.app, Part of Huawei sharing.  Do not remove or you won't be able to send files to apps,No
+com.huawei.hwasm,Any Source Multicast,No
+com.huawei.omacp,,No
+com.android.calendar,Stock Calendar,Yes
+com.huawei.wifiprobqeservice,,No
+com.huawei.livewallpaper.matetwenty,Mate 20 Live Wallpaper,Yes
+com.google.android.setupwizard,Android Setup Wizard That Runs At First Boot,Yes
+com.android.providers.settings,Settings,No
+com.android.sharedstoragebackup,,Yes
+com.facebook.services,Facebook Services,Yes
+com.google.android.music,Google Music,Yes
+com.android.printspooler,Print Spooler,Yes
+com.android.hotwordenrollment.okgoogle,OK Google Enrollment,No
+com.android.frameworkres.overlay,Android Framework Overlay,No
+com.huawei.carrierconfig,Carrier Configuration,No
+com.android.incallui,Stock Dialer InCallUI.  Safe to remove after installing another Dialer and setting it as default,Yes
+com.huawei.systemmanager,Huawei Phone/Tablet Manager.  Do Not Disturb breaks when you remove this,No
+com.huawei.nb.service,Huawei Data Management Service,No
+com.android.se,Secure Element Service,No
+com.android.inputdevices,Android Input Device Switcher,No
+com.google.android.dialer,Stock Dialer,Yes
+com.android.bips,Built In Print Service,Yes
+com.google.android.apps.docs,Google Drive,Yes
+com.google.android.apps.maps,Google Maps,Yes
+com.android.cellbroadcastreceiver,Cell Broadcast Receiver Such As Emergencies,No
+com.google.android.webview,Android System Webview for viewing websites,No
+com.huawei.HwMultiScreenShot,Multi Screenshots,Yes
+com.google.android.contacts,Stock Contacts App,Yes
+com.android.server.telecom,Telephone Call Routing,No
+com.google.android.syncadapters.contacts,Adapter to Sync Contacts,No
+com.example.android.notepad,Huawei Notepad,Yes
+com.android.keychain,Can't add VPN Certificate without this,No
+com.android.keyguard,Lockscreen Security,No
+com.android.chrome,Google Chrome Browser,Yes
+com.huawei.languagedownloader,Huawei Language Downloader,Yes
+com.android.gallery3d,Huawei Gallery,No
+com.google.android.packageinstaller,Allows you to install apps.  Do not remove,No
+com.google.android.street,Google Street View,Yes
+com.google.android.gms,Google Mobile Services,No
+com.google.android.gsf,Google Services Framework,No
+com.google.android.ims,,No
+com.google.android.tts,Google Text To Speech,Yes
+com.huawei.hwstartupguide,Huawei App That Runs At First Boot,Yes
+com.android.calllogbackup,Backs Up Call Logs,Yes
+com.google.android.partnersetup,Google Partner Apps Setup,No
+com.huawei.fido.uafclient,,No
+com.google.android.videos,Video Playing App,Yes
+com.huawei.stylus.floatmenu,Floating Menu For Use With M-Pen,Yes
+com.android.proxyhandler,,No
+com.huawei.android.mirrorshare,Huawei Screen Mirroring,Yes
+com.android.frameworkhwext.overlay.dark,Huawei's Dark UI,No
+com.huawei.contactscamcard,Mobile Scanner & Card Holder,Yes
+com.google.android.feedback,Google Feedback,Yes
+com.google.android.printservice.recommendation,Recommendations For Print Services,Yes
+com.google.android.apps.photos,Google Photos,Yes
+com.google.android.syncadapters.calendar,Syncs Your Calendar (Optional removal),No
+com.android.managedprovisioning,Work Profile Setup,No
+com.swiftkey.swiftkeyconfigurator,Swiftkey Keyboard Configurator,Yes
+com.huawei.hitouch,Floating Huawei Dock,Yes
+com.android.dreams.phototable,Photo Screnesavers,Yes
+com.huawei.android.dsdscardmanager,Dual Sim Dual Standby Card Manager,No
+com.android.providers.partnerbookmarks,Bookmarks Provider,Yes
+com.huawei.android.hwaps,Advanced Power Saving,No
+com.huawei.android.hwouc,Huawei Updater. Keep if you want OTA Updates,Yes
+com.huawei.android.wfdft,Wifi Direct,Yes
+com.android.wallpaper.livepicker,Live Wallpaper Picker,Yes
+com.huawei.mmitest,,No
+com.android.apps.tag,Tags,Yes
+com.huawei.powergenie,Huawei Power Management,No
+com.facebook.system,Facebook,Yes
+com.google.android.gms.policy_sidecar_aps,Google Apps Device Policy,No
+com.qeexo.smartshot,,Yes
+com.google.android.backuptransport,Backs up your google settings; contacts. Etc,No
+com.huawei.android.instantonline,,Yes
+com.android.storagemanager,,No
+com.android.bookmarkprovider,Android Bookmarks,Yes
+com.android.settings,Android System Settings,No
+com.huawei.pcassistant,Part of HiSuite,Yes
+com.huawei.android.projectmenu,Hidden Menu In Dialer,No
+com.android.cts.ctsshim,,No
+com.huawei.android.remotecontroller,Remote App For IR Blaster,Yes
+com.huawei.android.pushagent,Huawei OTA Update Push Agent,No
+com.android.vpndialogs,VPN Support Dialogs,No
+com.android.email,Stock Email,Yes
+com.android.phone,Do not remove or you'll have no cell service,No
+com.android.shell,,No
+com.android.providers.blockednumber,Blocked Phone Numbers,No
+com.android.providers.userdictionary,Custom Dictionary.  Do not remove or your settings won't open,No
+com.huawei.wifieapsimplmn,,No
+com.android.emergency,Emergency Contacts,Yes
+com.huawei.scanner,Huawei Card Scanner,Yes
+com.android.huawei.HiMediaEngine,Huawei Media Engine,Yes
+com.android.location.fused,,No
+com.android.deskclock,Stock Huawei Clock,Yes
+com.android.systemui,,No
+com.huawei.tmecustomize,,No
+com.android.bluetoothmidiservice,,No
+com.facebook.appmanager,Facebook,Yes
+com.huawei.hwdetectrepair,,Yes
+com.huawei.android.karaoke,Karaoke Effect,Yes
+com.huawei.bd,Huawei User Experience,Yes
+com.huawei.aod,Always On Display,No
+com.huawei.ims,,No
+com.huawei.lbs,Huawei Location Based Services,Yes
+com.android.bluetooth,Bluetooth,No
+com.android.providers.contacts,Contacts Provider,No
+com.android.captiveportallogin,,No
+com.google.android.inputmethod.latin,Gboard,Yes
+com.google.android.apps.restore,Google App Restore.  Safe to remove after first boot,Yes
+com.huawei.vassistant,HiVoice,Yes
