@@ -61,11 +61,13 @@ namespace AppUninstall
                 DataRow  dr = NameList.Rows.Find(pckname);
 
                 String name="";
+                String suggestion = "";
                 if (dr != null)
                 {
                     name = dr.ItemArray[1].ToString();
+                    suggestion = dr.ItemArray[2].ToString();
                 }
-                AndroidApp temapp = new AndroidApp(pckname, name);
+                AndroidApp temapp = new AndroidApp(pckname, name ,suggestion);
          
                 apps.Add(temapp);
             }

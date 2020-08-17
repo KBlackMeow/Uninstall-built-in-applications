@@ -38,7 +38,7 @@ namespace AppUninstall
             foreach(var a in AppList.SelectedItems)
             {
                 DataRowView view = (DataRowView)a;
-                view.Row[2]= "Checked";
+                view.Row[3]= "Checked";
             }
         }
 
@@ -47,7 +47,7 @@ namespace AppUninstall
             foreach (var a in AppList.SelectedItems)
             {
                 DataRowView view = (DataRowView)a;
-                view.Row[2] = "";
+                view.Row[3] = "";
             }
         }
 
@@ -61,7 +61,7 @@ namespace AppUninstall
             foreach (DataRowView a in AppList.ItemsSource)
             {
                 DataRowView view = a;
-                if (view.Row[2].ToString().Equals("Checked"))
+                if (view.Row[3].ToString().Equals("Checked"))
                 {
                     DataRow dr = dt.NewRow();
                     dr["Package Name"] = view["Package Name"];

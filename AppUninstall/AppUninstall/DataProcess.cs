@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace AppUninstall
 {
@@ -13,8 +16,9 @@ namespace AppUninstall
         public static DataTable GetApps()
         {
             DataTable dt = new DataTable("App List");
-            dt.Columns.Add(new DataColumn("Package Name",typeof(String)));
-            dt.Columns.Add(new DataColumn("App Name", typeof(String)));
+            dt.Columns.Add(new DataColumn("Package Names",typeof(String)));
+            dt.Columns.Add(new DataColumn("App Names", typeof(String)));
+            dt.Columns.Add(new DataColumn("Suggestion", typeof(String)));
             dt.Columns.Add(new DataColumn("Check", typeof(String)));
             var keys = new DataColumn[1];
             keys[0] = dt.Columns["Package Name"];
@@ -23,8 +27,9 @@ namespace AppUninstall
             foreach(AndroidApp app in apps)
             {
                 DataRow dr = dt.NewRow();
-                dr["App Name"] = app.GetName();
-                dr["Package Name"] = app.GetPackageName();
+                dr["App Names"] = app.GetName();
+                dr["Package Names"] = app.GetPackageName();
+                dr["Suggestion"] = app.GetSuggestion();
                 dt.Rows.Add(dr);
             }
 
@@ -65,8 +70,9 @@ namespace AppUninstall
                 }
             }
             var keys = new DataColumn[1];
-            keys[0] = dt.Columns["Package Name"];
+            keys[0] = dt.Columns["Package Names"];
             dt.PrimaryKey = keys;
+            
             reader.Close();
             return dt;
         }

@@ -10,6 +10,7 @@ namespace AppUninstall
     {
         private String name;
         private String pckname;
+        private String suggestion;
         public String GetPackageName()
         {
             return this.pckname;
@@ -19,14 +20,19 @@ namespace AppUninstall
         {
             return this.name;
         }
-        public void SetName(String name)
+        public String GetSuggestion()
         {
-            this.name = name;
+            return this.suggestion;
         }
-        public AndroidApp(string pckname, string name)
+        public void SetSuggesion(String suggestion)
+        {
+            this.suggestion = suggestion;
+        }
+        public AndroidApp(string pckname, string name ,string suggestion="")
         {
             this.name = name;
             this.pckname = pckname;
+            this.suggestion = suggestion;
         }
 
         public bool Equals(AndroidApp a)
